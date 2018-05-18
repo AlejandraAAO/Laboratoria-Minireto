@@ -8,7 +8,7 @@ Las respuestas de la trivia, solo las sabras al final del juego.
 
 Diviertete y **sientete**: 
 
-![ ](imagen.gif)
+![ ](minireto/imagen.gif)
 
 Si fallas y quieres averiguar la respuesta correcta siempre puedes volver a jugar presionando el mismo boton con el que iniciaste el juego.
 
