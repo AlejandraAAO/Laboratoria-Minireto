@@ -3,6 +3,10 @@ var saludarUsario = document.getElementById('bienvenida');
 var mostrarResultados = document.getElementById('contenedorPrincipal');
 var respuestasCorrectas = document.getElementById('respuestasCorrectas');
 var respuestasIncorrectas= document.getElementById('respuestasIncorrectas');
+var botonDeInicio = document.querySelector('button');
+
+
+botonDeInicio.onclick = function () {
 
 
 var nombreUsuario = prompt("Ingresa tu nombre:");
@@ -36,4 +40,5 @@ else {//Caso en el que SI quiera continuar con el juego
   } else {
     respuestasIncorrectas.innerHTML += "<br> 2.¿Qué es lo que más le gusta hacer a Lulú? <br> <strong>Respuesta correcta:</strong> 🎤 Cantar 🎤";
   }
+}
 }
